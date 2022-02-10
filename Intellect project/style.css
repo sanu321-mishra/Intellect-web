@@ -1,0 +1,302 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    text-align: center;
+    
+}
+
+#title{
+    background-color: #0000FF;
+   
+
+}
+.titlec, .titled{
+    position: relative;
+    top: 10%;
+}
+.container-fluid{
+    padding: 3% 7% 3%;
+
+}
+.heading-1{
+    color: #F9EAFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: relative;
+    top: 5rem;
+    right: 10px;
+
+}
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30%;
+    font-family: 'Playfair Display', serif;
+
+}
+.navbar-nav{
+    margin-left: 25%;
+    
+}
+.image-1{
+    width: 50%;
+    position: relative;
+    top: 10px;
+
+}
+.navbar-main{
+    position: relative;
+    bottom: 10%;
+}
+.download{
+    position: relative;
+    top: 25%;
+    margin: 10px;
+}
+
+/*hover on nav */
+.navbar-nav:hover{
+    color: azure;
+}
+#about{
+    text-align: center;
+    background-color: #FFE3F1;
+}
+.para1{
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+    line-height: 2rem;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin-top: 10%;
+
+}
+.heading-2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight:700;
+    margin-top:40px ;
+
+}
+.image-2, .image-3{
+    position: relative;
+    top: 10%;
+    width: 20%;
+}
+
+#important{
+    background-color: #D3FBD8;
+}
+.box{
+    background-color: #E9E5D6;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+
+}
+.para2{
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+    line-height: 1.5rem;
+
+}
+
+#experience{
+    padding: 5% 10% 5%;
+    background-color: #0000FF;
+}
+.png{
+    width: 40%;
+    height: 50%;
+
+}
+.heading-3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight:500;
+    color: #FFE3F1;
+    margin-top: 10px;
+
+}
+.para3{
+    color: #F9EAFF;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+
+.card{
+    width: 15rem;
+    margin: 10px;
+    border-radius: 10%;
+    position: relative;
+    left: 8%;
+}
+.card-text1,.card-text4{
+    font-weight: bold;
+    font-size: medium;
+    color: gray;
+    line-height: 2rem;
+
+}
+.card-text2{
+    font-weight: bold;
+    font-size: medium;
+    color:#FFF;
+    line-height: 2rem;
+
+
+}
+.card-title3{
+    color: #FFF;
+
+}
+.card-text3{
+    font-weight: bold;
+    font-size: medium;
+    color: #FFE3F1;
+    line-height: 2rem;
+
+}
+video{
+    
+    margin-top: 20%;
+    border-radius: 10%;
+}
+.intro{
+    width: 85%;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight:700;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+#contact{
+    background-color:#1A1A40;
+}
+.sanu{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    right: 20%;
+}
+.sanu1{
+    color: azure;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    width: 50%;
+    left: 5%;
+    margin-top: 10px;
+}
+.sanu2{
+    margin: 4px;
+    position: relative;
+    right: 20%;
+}
+.contact1{
+    position: relative;
+    width: 15%;
+    left: 60%;
+    bottom: 50%;
+}
+.menu{
+    color: azure;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Playfair Display', serif;
+
+}
+.sanu3{
+    text-decoration: none;
+}
+.sanu3:hover{
+    color: white;
+}
+.heading-4{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight:300;
+    color: #F9EAFF;
+    margin-top: 10px;
+
+}
+.download2{
+    margin: 10px;
+    
+}
+
+/*media query*/
+
+@media (max-width:800px){
+
+    .container-fluid{
+        padding: 3% 5% 3%;
+    }
+    .image-1{
+        position: relative;
+        width: 70%;
+        padding: 10%;
+        bottom: 10%;
+    }
+    .titlec{
+        padding: 5%;
+        position: relative;
+        bottom: 20px;
+        margin-bottom: 10%;
+    }
+    .download{
+        position: relative;
+        margin: 10px;
+        bottom: 30%;
+        
+    }
+    .heading-1{
+        padding: 5px;
+    }
+    .titled{
+        margin-top: 30px;
+    }
+    .download3{
+        position: relative;
+        margin: 10px;
+    }
+    .intro{
+        position: relative;
+        top: 15%;
+    }
+    video{
+        position: relative;
+        width: 280px;
+        height: 250px;
+        top: 20%;
+    }   
+    .footer1{
+        position: relative;
+        bottom: 70px;
+    }
+    .card{
+        position: relative;
+        left: 15%;
+    }
+    
+        
+        
+    
+}
+
+
+ 
